@@ -2,4 +2,9 @@
 label: Home page
 hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: include
+  label: Page Sections
+  name: page_sections
+  description: Sections on the page. these are layout areas which take up 100% of
+    the page width
