@@ -1,0 +1,611 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mail",
+				"mail_status"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"home",
+				"home_team_score"
+			],
+			[
+				"year",
+				"year_start"
+			],
+			[
+				"pas",
+				"past_events_count"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"twen",
+				"twentythirteen_entry_meta"
+			],
+			[
+				"translate",
+				"translatey"
+			],
+			[
+				"away_tea",
+				"away_team_score"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"tickets",
+				"tickets_link"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ticket",
+				"tickets_link"
+			],
+			[
+				"owner",
+				"ownership-stats"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"current",
+				"current_year"
+			],
+			[
+				"page",
+				"page_id"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"transla",
+				"translatex"
+			],
+			[
+				"link",
+				"link_text"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"sfci",
+				"sfcityred"
+			],
+			[
+				"don",
+				"dontshow"
+			],
+			[
+				"dontsh",
+				"dontShowCookie"
+			],
+			[
+				"coo",
+				"cookieVal"
+			],
+			[
+				"cook",
+				"cookieName"
+			],
+			[
+				"sfc-mo",
+				"sfc-modal-box"
+			],
+			[
+				"word",
+				"word-spacing: "
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"sfcity",
+				"sfcityred"
+			],
+			[
+				"posts",
+				"posts_per_page"
+			],
+			[
+				"match",
+				"match-logo"
+			],
+			[
+				"lang",
+				"btn-lang-select"
+			],
+			[
+				"fad",
+				"fade(color, 50%)"
+			],
+			[
+				"r",
+				"rgb(r,g,b)"
+			],
+			[
+				"sfcit",
+				"sfcityyellow"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"hel",
+				"Helvetica"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"pro",
+				"products-menu"
+			],
+			[
+				"nav",
+				"nav-container"
+			],
+			[
+				"margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevinblack/Downloads/cbcork-9-27-2017/bottom.gif",
+		"/Users/kevinblack/Downloads/ResponsiveForm2016/styles.css",
+		"/Users/kevinblack/Downloads/icon-pdf.svg",
+		"/Users/kevinblack/Creative Cloud Files/figure-4-table.html",
+		"/Users/kevinblack/Creative Cloud Files/Contact Us.svg",
+		"/Users/kevinblack/Downloads/pardot-form.html",
+		"/Users/kevinblack/Downloads/js_3lrArU_JCYJVr9X9cmKQf22qs9B-nu9mC1iQafEuhkk_f3dc856c52b1212e19bdfaa330f25fcc.js",
+		"/Users/kevinblack/Downloads/Materials tables/SLS Material Properties.html",
+		"/Users/kevinblack/Downloads/Materials tables/SLA Material Properties.html",
+		"/Users/kevinblack/Downloads/Materials tables/Quickplastic Cast Urethane Material Properties.html",
+		"/Users/kevinblack/Downloads/Materials tables/PJP Material Properties.html",
+		"/Users/kevinblack/Downloads/Materials tables/DMP Material Properties.html",
+		"/Users/kevinblack/Downloads/Materials tables/CJP Material Properties.html",
+		"/Applications/DevDesktop/php5_6/bin/php.ini",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-design-icon.svg",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-digitize-icon.svg",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-inspect-icon.svg",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-manage-icon.svg",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-manufacture-icon.svg",
+		"/Users/kevinblack/Downloads/worflow-icons/workflow-simulate-icon.svg",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/less/sfcity.less",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-aerospace-icon.svg",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-automotive-icon.svg",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-durable-goods-icon.svg",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-entertainment-icon.svg",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-healthcare-icon.svg",
+		"/Users/kevinblack/Downloads/by-industry-icons/3d-systems-by-industry-teaching-training-icon.svg",
+		"/Users/kevinblack/Downloads/downloadable-form-pdf-icon.svg",
+		"/Users/kevinblack/Downloads/triangles-01.svg",
+		"/Users/kevinblack/Downloads/triangles-02.svg",
+		"/Users/kevinblack/Downloads/triangles-03.svg",
+		"/Users/kevinblack/Downloads/triangles-04.svg",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-config.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/single.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/content-match.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/less/bootstrap.less",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/less/mixins.less",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/less/type.less",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/single-event.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/single-match.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/single.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/inc/custom-header.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/css/cd-slider.css",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2/sfcity.css",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/page-home.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/less/sfcity.less",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/index.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/page-news.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/functions.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/header.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/page-board.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/page.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/js/dontshow.js",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/footer.php",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/js/home.js",
+		"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc/page-youth.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/style.css",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/sass/style.scss",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/template-parts/content.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/template-parts/content-single.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/template-parts/content-page.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/template-parts/content-none.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/single.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/sidebar.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/search.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/template-parts/content-search.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/README.md",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/rtl.css",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/readme.txt",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/page.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/layouts/sidebar-content.css",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/layouts/content-sidebar.css",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/languages/_s.pot",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/index.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/wpcom.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/template-tags.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/jetpack.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/extras.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/header.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/customizer.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/inc/custom-header.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/functions.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/footer.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/CONTRIBUTING.md",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/comments.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/archive.php",
+		"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin/404.php",
+		"/Users/kevinblack/sites/cbcork/2015.05.24/cork.html",
+		"/Users/kevinblack/sites/cbcork/2015.05.24/index.html",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/content-none.php",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/less/style.less",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/js/home.js",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/footer.php",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/header.php",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/index.php",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-config.php",
+		"/Users/kevinblack/Documents/sfcityfc/web/less/sfcity.less",
+		"/Users/kevinblack/Documents/sfcityfc/web/views/home.twig",
+		"/Users/kevinblack/Documents/sfcityfc/web/views/about.twig",
+		"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc/less/sfcity.less",
+		"/Users/kevinblack/Documents/sfcityfc/web/index.php",
+		"/Users/kevinblack/sites/sfcity/sfcityfc_010314.html",
+		"/Users/kevinblack/sites/sfcity/less/ui.less",
+		"/Users/kevinblack/sites/cbcork/metalclosures.html",
+		"/Users/kevinblack/Downloads/cbcork_oct2014/metalclosures.html",
+		"/Users/kevinblack/Downloads/jquery-contact-form/contact_form.html",
+		"/Users/kevinblack/Downloads/download/contact_form.php",
+		"/Users/kevinblack/Downloads/download/contact_form.js",
+		"/Users/kevinblack/Downloads/download/css/styles.css",
+		"/Users/kevinblack/Downloads/download/capsules.html",
+		"/Users/kevinblack/Downloads/download/index.html",
+		"/Users/kevinblack/Downloads/download/products.html",
+		"/Users/kevinblack/Downloads/download/bartops.html",
+		"/Users/kevinblack/Downloads/download/cork.html",
+		"/Users/kevinblack/Library/Application Support/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings",
+		"/Users/kevinblack/sites/sfcity/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/kevinblack/sites/jennyandtaylor.love/wordpress/wp-content/themes/jennyandtaylor",
+			"/Users/kevinblack/Downloads/cbcork-9-27-2017",
+			"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc2",
+			"/Users/kevinblack/sites/sfcityfc/3.0/wp-content/themes/sfcityfc",
+			"/Users/kevinblack/sites/christineandkevin.us/wordpress/wp-content/themes/christineandkevin",
+			"/Users/kevinblack/Documents/sfcityfc/3.0/wp-content/themes/sfcityfc"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get_sidebar",
+			"	<script src=\"//assets.adobedtm.com/c876840ac68fc41c08a580a3fb1869c51ca83380/satelliteLib-b4c2cec497a05b7f7ac79a6947149a79456222b2.js\"></script>\n",
+			"					<form action=\"/contact.php\" method=\"post\">\n					    <input type=\"text\" name=\"cf_name\" placeholder=\"Your name\" required>\n					    <input type=\"text\" name=\"cf_email\" placeholder=\"Your email\" required>\n					    <textarea name=\"cf_message\" placeholder=\"Message\" required></textarea>\n						<input type=\"submit\" value=\"Send\">\n					</form>\n",
+			"					<form action=\"contact.php\" method=\"post\">\n					    <input type=\"text\" name=\"cf_name\" placeholder=\"Your name\" required>\n					    <input type=\"text\" name=\"cf_email\" placeholder=\"Your email\" required>\n					    <textarea name=\"cf_message\" placeholder=\"Message\" required></textarea>\n						<input type=\"submit\" value=\"Send\">\n					</form>\n",
+			"<script src=\"/scripts/placeholders.min.js\"></script>",
+			"age",
+			"search",
+			"search/path",
+			"admin/config/search/path",
+			"post",
+			"&nbsp;",
+			"11px",
+			"padding:10px",
+			"padding: 10px",
+			"title",
+			"h2",
+			"sponsors",
+			"\"col\"",
+			"sponsors",
+			"=col",
+			"col",
+			"equal",
+			"partners",
+			"block-grid",
+			"block",
+			"cloaw",
+			"cityfootball",
+			"height",
+			"nav",
+			"social",
+			"favicon",
+			"cd-",
+			") ",
+			"setautoplay",
+			"interval",
+			"remove",
+			"$post_object",
+			"add_theme_support",
+			"add_theme",
+			"nav-mobile",
+			"page-schedule",
+			"post_meta",
+			"features",
+			".banner",
+			"69",
+			".button-red",
+			"extend",
+			"dropdowns",
+			"the_fi",
+			"main",
+			"604",
+			"logo",
+			"+ a",
+			"page-board",
+			"/news",
+			"infographic-wrapper",
+			"infographi",
+			"ownership",
+			"page-board",
+			"board",
+			"schedule",
+			"date",
+			"the_excerpt",
+			"community",
+			"upcoming",
+			"date",
+			"url",
+			"upcoming-events",
+			"events",
+			"entry-",
+			".logo",
+			"translate",
+			"section-team",
+			"roster",
+			"footer",
+			"events",
+			"events-",
+			"social",
+			"transla",
+			"event",
+			"events",
+			"open-cup",
+			".date",
+			"date",
+			"+",
+			"float:left",
+			"cd-slider-nav",
+			"support",
+			"else if",
+			"cd-",
+			"img",
+			"marker.",
+			"twentythirteen_fonts_url",
+			"translate",
+			"transform",
+			"banner",
+			"selected",
+			"Chalet",
+			"logo",
+			"e31837",
+			"button-",
+			"dropdown",
+			"youth",
+			"dropdown",
+			"li ",
+			"li",
+			"facebook",
+			"thumbnails",
+			"page",
+			"gray",
+			"input",
+			"sfc-modal-close",
+			"$font__main",
+			"navigation",
+			"_s-",
+			" Christine and Kevin",
+			" _s",
+			"Text Domain: _s",
+			"_s_",
+			"'_s'",
+			"sticky-nav",
+			"nav-mobile",
+			"clear",
+			"fluid",
+			"roster",
+			"google",
+			"content",
+			"address"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	<script src=\"//assets.adobedtm.com/c876840ac68fc41c08a580a3fb1869c51ca83380/satelliteLib-b4c2cec497a05b7f7ac79a6947149a79456222b2.js\"></script>\n	<script src=\"https://www.google.com/recaptcha/api.js\" async defer></script>\n	<script>\n        function captchaSubmit(data) {\n            document.getElementById(\"ContactForm\").submit();\n        }\n    </script>\n    <style>\n        .grecaptcha-badge {display: none;}\n    </style>\n",
+			"					<form id=\"ContactForm\" action=\"contact.php\" method=\"post\">\n					    <input type=\"text\" name=\"cf_name\" placeholder=\"Your name\" required>\n					    <input type=\"text\" name=\"cf_email\" placeholder=\"Your email\" required>\n					    <textarea name=\"cf_message\" placeholder=\"Message\" required></textarea>\n						<button class=\"g-recaptcha\" data-sitekey=\"6LcDXTIUAAAAABnddh0V26bEVZ9vpAWO1WIjcaRe\" data-callback=\"captchaSubmit\" data-badge=\"inline\">Send</button>\n					</form>\n",
+			"	<script type=\"text/javascript\">\n        function insertAfter(el, referenceNode) {\n		    referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);\n		}\n\n        (function() {\n		    if (window.location.hash === \"#success\") {\n				var newEl = document.createElement('div');\n				newEl.innerHTML = '<p>Thank you for the message. We will contact you shortly.</p>';\n\n				var ref = document.getElementById(\"ContactForm\");\n				insertAfter(newEl, ref);\n		    } else if (window.location.hash === \"#failure\") {\n				var newEl = document.createElement('div');\n				newEl.innerHTML = '<p>Message failed. Please, send an email to <a href=\"info@cbcork.com\">info@cbcork.com</a>.</p>';\n\n				var ref = document.getElementById(\"ContactForm\");\n				insertAfter(newEl, ref);\n		    }\n		})();\n	</script>\n",
+			"",
+			"section-features",
+			"Lato",
+			" candk-",
+			" candk",
+			" Christine and Kevin",
+			"Text Domain: candk",
+			"candk_",
+			"'candk'",
+			"resources"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kevinblack/sites/christineandkevin.us/christineandkevin.us.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true
+}
