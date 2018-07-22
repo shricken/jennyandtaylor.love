@@ -101,20 +101,34 @@ section.page {
             }
 
             &.leaf-outline {
-                width: 155vw;
-                top: -12vw;
-                right: 29vw;
+                filter: blur(2px);
                 opacity: 0.1;
+                right: 29vw;
+                top: -12vw;
+                width: 155vw;
                 z-index: 0;
             }
 
             &.magnolia-outline {
-                width: 153vw;
                 bottom: 8vw;
+                filter: blur(2px);
                 left: 19vw;
-                transform: rotate(-130deg);
                 opacity: 0.2;
+                transform: rotate(-130deg);
+                width: 153vw;
                 z-index: 0;
+            }
+        }
+    }
+
+    &.about {
+        .grid-container {
+            max-width: $row-width;
+            @include grid-container;
+            @include margin(null auto);
+
+            >div {
+                @include grid-column(6);
             }
         }
     }

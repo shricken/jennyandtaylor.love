@@ -85,15 +85,29 @@ section.page {
         right: -29vw;
         transform: rotate(120deg); }
       section.page.home .svg-container.leaf-outline {
-        width: 155vw;
-        top: -12vw;
-        right: 29vw;
+        filter: blur(2px);
         opacity: 0.1;
+        right: 29vw;
+        top: -12vw;
+        width: 155vw;
         z-index: 0; }
       section.page.home .svg-container.magnolia-outline {
-        width: 153vw;
         bottom: 8vw;
+        filter: blur(2px);
         left: 19vw;
-        transform: rotate(-130deg);
         opacity: 0.2;
+        transform: rotate(-130deg);
+        width: 153vw;
         z-index: 0; }
+  section.page.about .grid-container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto; }
+    section.page.about .grid-container::after {
+      clear: both;
+      content: "";
+      display: block; }
+    section.page.about .grid-container > div {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; }
