@@ -1,4 +1,20 @@
+.fill-gold {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #e8ca82; }
+
+.fill-darkblue {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #0d1f2d; }
+
+.fill-white {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #fff; }
+
 body {
+  font-family: 'Libre Franklin', sans-serif;
   margin: 0; }
 
 section.page {
@@ -7,11 +23,17 @@ section.page {
     align-items: center;
     background: linear-gradient(0.125turn, #0d1f2d, #16354c);
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    position: relative; }
     section.page.home .title {
       background: linear-gradient(0.125turn, #192a38, #223f55);
-      padding: 0 2rem; }
-      section.page.home .title h1, section.page.home .title h2, section.page.home .title h3, section.page.home .title h4 {
+      padding: 0 2rem;
+      position: relative;
+      z-index: 10; }
+      section.page.home .title h1,
+      section.page.home .title h2,
+      section.page.home .title h3,
+      section.page.home .title h4 {
         color: #fff;
         font-family: 'Playfair Display', serif;
         font-weight: normal;
@@ -39,3 +61,39 @@ section.page {
           section.page.home .title .date {
             font-size: 22px;
             letter-spacing: 27.5px; } }
+    section.page.home .svg-container {
+      position: absolute; }
+      section.page.home .svg-container.magnolia-1 {
+        top: -10vw;
+        left: -15vw;
+        width: 60vw;
+        transform: rotate(170deg); }
+      section.page.home .svg-container.leaf-1 {
+        width: 43vw;
+        top: 18vw;
+        left: -25vw;
+        transform: rotate(57deg); }
+      section.page.home .svg-container.magnolia-2 {
+        bottom: -11vw;
+        right: -19vw;
+        width: 60vw;
+        transform: rotate(270deg);
+        z-index: 1; }
+      section.page.home .svg-container.leaf-2 {
+        width: 53vw;
+        bottom: -12vw;
+        right: -29vw;
+        transform: rotate(120deg); }
+      section.page.home .svg-container.leaf-outline {
+        width: 155vw;
+        top: -12vw;
+        right: 29vw;
+        opacity: 0.1;
+        z-index: 0; }
+      section.page.home .svg-container.magnolia-outline {
+        width: 153vw;
+        bottom: 8vw;
+        left: 19vw;
+        transform: rotate(-130deg);
+        opacity: 0.2;
+        z-index: 0; }

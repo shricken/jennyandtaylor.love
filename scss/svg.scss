@@ -1,0 +1,20 @@
+@import "variables";
+
+// SVG fill rules/classes
+.fill-gold {
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	fill: $gold;
+}
+
+.fill-darkblue {
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	fill: $darkblue;
+}
+
+.fill-white {
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	fill: #fff;
+}

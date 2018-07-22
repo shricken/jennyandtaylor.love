@@ -1,67 +1,121 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
-// Variables
-// Colors
-$darkblue: #0d1f2d;
-$gold: #e8ca82;
+@import "variables";
+@import "svg";
+
 
 body {
-	margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
 }
 
 section.page {
-	min-height: 100vh;
+    min-height: 100vh;
 
-	&.home {
-    	align-items: center;
-		background: linear-gradient(0.125turn, $darkblue, #16354c); 
-		display: flex;
-    	justify-content: center;
+    &.home {
+        align-items: center;
+        background: linear-gradient(0.125turn, $darkblue, #16354c);
+        display: flex;
+        justify-content: center;
+        position: relative;
 
-		.title {
-			background: linear-gradient(0.125turn, tint($darkblue, 5%), tint(#16354c, 5%));
-			padding: 0 2rem;
+        .title {
+            background: linear-gradient(0.125turn, tint($darkblue, 5%), tint(#16354c, 5%));
+            padding: 0 2rem;
+            position: relative;
+            z-index: 10;
 
-			h1, h2, h3, h4 {
-				color: #fff;
-				font-family: 'Playfair Display', serif;
-				font-weight: normal;
-				text-align: center;
-			}
+            h1,
+            h2,
+            h3,
+            h4 {
+                color: #fff;
+                font-family: 'Playfair Display', serif;
+                font-weight: normal;
+                text-align: center;
+            }
 
-			h1 {
-				color: $gold;
-				font-size: 8vw;
-				margin: 0;
+            h1 {
+                color: $gold;
+                font-size: 8vw;
+                margin: 0;
 
-				@media (min-width: 1100px) {
-					font-size: 88px;
-				}
+                @media (min-width: 1100px) {
+                    font-size: 88px;
+                }
 
-				.ampersand {
-					color: #fff;
-					font-size: 10vw;
-					vertical-align: -8%;
-					
-					@media (min-width: 1100px) {
-						font-size: 110px;
-					}
-				}
-			}
+                .ampersand {
+                    color: #fff;
+                    font-size: 10vw;
+                    vertical-align: -8%;
 
-			.date {
-				font-size: 2vw;
-				letter-spacing: 2.5vw;
-				margin-top: 1rem;
-				padding-left: 2.5vw; // even out spacing due to letter spacing after last character
+                    @media (min-width: 1100px) {
+                        font-size: 110px;
+                    }
+                }
+            }
 
-				@media (min-width: 1100px) {
-					font-size: 22px;
-					letter-spacing: 27.5px;
-				}
+            .date {
+                font-size: 2vw;
+                letter-spacing: 2.5vw;
+                margin-top: 1rem;
+                padding-left: 2.5vw; // even out spacing due to letter spacing after last character
+                @media (min-width: 1100px) {
+                    font-size: 22px;
+                    letter-spacing: 27.5px;
+                }
+            }
+        }
 
-			}
-		}
-	}
+        .svg-container {
+            position: absolute;
+
+            &.magnolia-1 {
+                top: -10vw;
+                left: -15vw;
+                width: 60vw;
+                transform: rotate(170deg);
+            }
+
+            &.leaf-1 {
+                width: 43vw;
+                top: 18vw;
+                left: -25vw;
+                transform: rotate(57deg);
+            }
+
+            &.magnolia-2 {
+                bottom: -11vw;
+                right: -19vw;
+                width: 60vw;
+                transform: rotate(270deg);
+                z-index: 1;
+            }
+
+            &.leaf-2 {
+                width: 53vw;
+                bottom: -12vw;
+                right: -29vw;
+                transform: rotate(120deg);
+            }
+
+            &.leaf-outline {
+                width: 155vw;
+                top: -12vw;
+                right: 29vw;
+                opacity: 0.1;
+                z-index: 0;
+            }
+
+            &.magnolia-outline {
+                width: 153vw;
+                bottom: 8vw;
+                left: 19vw;
+                transform: rotate(-130deg);
+                opacity: 0.2;
+                z-index: 0;
+            }
+        }
+    }
 }
