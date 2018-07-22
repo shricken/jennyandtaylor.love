@@ -11,3 +11,5 @@ fields:
   name: page_sections
   description: Sections on the page. these are layout areas which take up 100% of
     the page width
+pages:
+- test-page.md
