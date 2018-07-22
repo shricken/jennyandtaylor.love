@@ -1,0 +1,67 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// Variables
+// Colors
+$darkblue: #0d1f2d;
+$gold: #e8ca82;
+
+body {
+	margin: 0;
+}
+
+section.page {
+	min-height: 100vh;
+
+	&.home {
+    	align-items: center;
+		background: linear-gradient(0.125turn, $darkblue, #16354c); 
+		display: flex;
+    	justify-content: center;
+
+		.title {
+			background: linear-gradient(0.125turn, tint($darkblue, 5%), tint(#16354c, 5%));
+			padding: 0 2rem;
+
+			h1, h2, h3, h4 {
+				color: #fff;
+				font-family: 'Playfair Display', serif;
+				font-weight: normal;
+				text-align: center;
+			}
+
+			h1 {
+				color: $gold;
+				font-size: 8vw;
+				margin: 0;
+
+				@media (min-width: 1100px) {
+					font-size: 88px;
+				}
+
+				.ampersand {
+					color: #fff;
+					font-size: 10vw;
+					vertical-align: -8%;
+					
+					@media (min-width: 1100px) {
+						font-size: 110px;
+					}
+				}
+			}
+
+			.date {
+				font-size: 2vw;
+				letter-spacing: 2.5vw;
+				margin-top: 1rem;
+				padding-left: 2.5vw; // even out spacing due to letter spacing after last character
+
+				@media (min-width: 1100px) {
+					font-size: 22px;
+					letter-spacing: 27.5px;
+				}
+
+			}
+		}
+	}
+}

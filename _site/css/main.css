@@ -1,0 +1,41 @@
+body {
+  margin: 0; }
+
+section.page {
+  min-height: 100vh; }
+  section.page.home {
+    align-items: center;
+    background: linear-gradient(0.125turn, #0d1f2d, #16354c);
+    display: flex;
+    justify-content: center; }
+    section.page.home .title {
+      background: linear-gradient(0.125turn, #192a38, #223f55);
+      padding: 0 2rem; }
+      section.page.home .title h1, section.page.home .title h2, section.page.home .title h3, section.page.home .title h4 {
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        font-weight: normal;
+        text-align: center; }
+      section.page.home .title h1 {
+        color: #e8ca82;
+        font-size: 8vw;
+        margin: 0; }
+        @media (min-width: 1100px) {
+          section.page.home .title h1 {
+            font-size: 88px; } }
+        section.page.home .title h1 .ampersand {
+          color: #fff;
+          font-size: 10vw;
+          vertical-align: -8%; }
+          @media (min-width: 1100px) {
+            section.page.home .title h1 .ampersand {
+              font-size: 110px; } }
+      section.page.home .title .date {
+        font-size: 2vw;
+        letter-spacing: 2.5vw;
+        margin-top: 1rem;
+        padding-left: 2.5vw; }
+        @media (min-width: 1100px) {
+          section.page.home .title .date {
+            font-size: 22px;
+            letter-spacing: 27.5px; } }
