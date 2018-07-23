@@ -6,7 +6,7 @@
 					"compiler": "scss",
 					"output": "../css/main.css",
 					"options": {
-						"style": 0,
+						"style": "3",
 						"comments": false
 					}
 				}
