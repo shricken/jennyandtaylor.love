@@ -16,3 +16,5 @@ fields:
 - type: textarea
   label: About Us
   name: about_us
+pages:
+- index.md
