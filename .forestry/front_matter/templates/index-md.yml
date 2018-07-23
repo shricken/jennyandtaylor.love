@@ -12,7 +12,7 @@ fields:
   name: wedding_date
   label: Wedding Date
   config:
-    date_format: fullDate
+    date_format: M D YYYY
 - type: textarea
   label: About Us
   name: about_us
