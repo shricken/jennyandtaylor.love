@@ -13,6 +13,7 @@ fields:
   label: Wedding Date
   config:
     date_format: MMMM D YYYY
+    time_format: '""'
 - type: textarea
   label: About Us
   name: about_us
