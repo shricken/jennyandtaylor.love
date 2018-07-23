@@ -8,3 +8,8 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: datetime
+  name: wedding_date
+  label: Wedding Date
+  config:
+    date_format: fullDate
