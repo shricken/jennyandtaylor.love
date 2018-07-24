@@ -38,5 +38,13 @@ fields:
 - type: field_group
   name: details
   label: When, where, what to wear
+  fields:
+  - type: textarea
+    label: What to wear copy
+    name: attire
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - index.md
