@@ -35,5 +35,8 @@ fields:
   - type: image_gallery
     name: photo_gallery
     label: Photo gallery
+- type: field_group
+  name: details
+  label: When, where, what to wear
 pages:
 - index.md
