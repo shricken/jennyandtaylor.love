@@ -15,6 +15,13 @@ fields:
     date_format: MMMM D YYYY
     time_format: " "
 - type: textarea
+  label: Site intro
+  name: site_intro
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
   label: About Us
   name: about_us
   config:
