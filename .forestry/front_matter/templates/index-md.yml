@@ -39,5 +39,12 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: textarea
+    label: About us
+    name: about_us
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - index.md
