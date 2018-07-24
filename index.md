@@ -31,13 +31,11 @@ intro_about:
   - "/uploads/horse.JPG"
   - "/uploads/DSCN2023.JPG"
 details:
-  attire: |-
-    #### Attire: Black Tie Optional
-
-    * For the ladies: A long dress, dressy separates, or a formal cocktail dress.
-    * For the men: A tuxedo or a formal dark suit, white shirt, and conservative tie.
-
-    The weather in Big Spring is like the desert. In November, the average high is 75 and the average low is in the 40’s. Bring a sweater or jacket
+  attire: "### Attire: Black Tie Optional\n\nAttire is black tie optional (emphasis
+    on the optional)! \n\nBig Spring is in the desert: you can expect temperatures
+    in the 60-70s during the day and lows in the 40s at night, please bring a coat
+    to keep warm. Stilettos are also not advised as there is some uneven terrain at
+    the venue!  "
   attire_examples:
   - "/uploads/BlackTieOptional (1).jpg"
   - "/uploads/image.png"
