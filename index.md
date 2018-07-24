@@ -38,7 +38,18 @@ details:
     * For the men: A tuxedo or a formal dark suit, white shirt, and conservative tie.
 
     The weather in Big Spring is like the desert. In November, the average high is 75 and the average low is in the 40’s. Bring a sweater or jacket
-  attire_examples: []
+  attire_examples:
+  - "/uploads/image.png"
+  - "/uploads/Black-Tie-Optional.jpg"
+  - "/uploads/blacktieoptional.jpg"
+  - "/uploads/Asos-One-Sleeve-Fold-Front-Midi-Bodycon-Dress.jpg"
+  - "/uploads/Asos-Crepe-Bandeau-Bow-Front-Midi-Bodycon-Dress.jpg"
+  - "/uploads/Jarlo-All-Over-Cutwork-Lace-Bardot-Midi-Prom-Dress-With-Ruffle-Hem.jpg"
+  - "/uploads/BlackTieOptional (1).jpg"
+  - "/uploads/whbm_inaugural-dress-collection_image6.jpg"
+  - "/uploads/Black-Tie-Wedding-Attire.jpg"
+  - "/uploads/Frock-And-Frill-Allover-Floral-Embroidered-Lace-Maxi-Dress-With-Flutter-Sleeve-315x352.jpg"
+  - "/uploads/Asos-Edition-Folded-Sleeve-Off-Shoulder-Midi-Dress.jpg"
 
 ---
 test content
