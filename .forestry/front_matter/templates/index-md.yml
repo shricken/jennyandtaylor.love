@@ -1,6 +1,6 @@
 ---
 label: Homepage
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - name: layout
@@ -14,13 +14,6 @@ fields:
   config:
     date_format: MMMM D YYYY
     time_format: " "
-- type: textarea
-  label: Site intro
-  name: site_intro
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: textarea
   label: About Us
   name: about_us
