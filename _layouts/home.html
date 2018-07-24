@@ -74,18 +74,28 @@
                     <div class="travel">
                         {{ page.accommodations.travel | markdownify }}
                     </div>
+                    <hr/>
                     <div class="hotel">
-                        <h4>The Ceremony <span class="ampersand">&amp;</span> Reception</h4>
-                        <p>NOVEMBER 10 AT 4:00 PM</p>
-                        <p>1100 Richie Road
-                            <br/> Big Spring, TX 79720</p>
-                        <p>Dinner and Dancing to follow</p>
-                        <p><em>Please send your RSVP by September 10, 2018</em></p>
+                        {{ page.accommodations.hotel | markdownify }}
                     </div>
                 </div>
             </div>
             <div class="svg-container leaf-outline">{% include svg/leaf-outline.svg %}</div>
             <div class="svg-container magnolia-outline">{% include svg/magnolia-outline.svg %}</div>
+        </section>
+        <section id="registry" class="page registry">
+            <div class="grid-container">
+                <div class="registry-intro">
+                    <h2>Registry</h2>
+                    {{ page.registry }}
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="registry-item">
+                    
+                </div>
+
+            </div>
         </section>
     </main>
     {% include footer.html %}

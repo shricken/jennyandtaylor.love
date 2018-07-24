@@ -37,7 +37,7 @@ media: 700px,
 
 
 section.page {
-	box-sizing: border-box;
+    box-sizing: border-box;
     min-height: 100vh;
 
     &.home {
@@ -104,6 +104,7 @@ section.page {
                 left: -15vw;
                 width: 60vw;
                 transform: rotate(170deg);
+                z-index: 1;
             }
 
             &.leaf-1 {
@@ -111,6 +112,7 @@ section.page {
                 top: 18vw;
                 left: -25vw;
                 transform: rotate(57deg);
+                z-index: 2;
             }
 
             &.magnolia-2 {
@@ -203,9 +205,9 @@ section.page {
     }
 
     &.details {
-    	.ampersand {
-    		color: $gold;
-    	}
+        .ampersand {
+            color: $gold;
+        }
 
         .section-separator {
             @include grid-column(8);
@@ -213,24 +215,24 @@ section.page {
         }
 
         h2 {
-        	text-align: center;
+            text-align: center;
             @include grid-column(12);
         }
 
         .date-and-time {
-        	background-color: tint($darkblue, 10%);
-        	box-sizing: border-box;
-        	color: #fff;
-        	font-size: modular-scale(1);
-        	margin-bottom: 40px;
-        	padding: 30px 60px;
-        	text-align: center;
+            background-color: tint($darkblue, 10%);
+            box-sizing: border-box;
+            color: #fff;
+            font-size: modular-scale(1);
+            margin-bottom: 40px;
+            padding: 30px 60px;
+            text-align: center;
 
-        	a,
-        	a:active,
-        	a:visited {
-    			color: #fff;
-        	}
+            a,
+            a:active,
+            a:visited {
+                color: #fff;
+            }
 
             @include grid-column(12);
 
@@ -253,24 +255,32 @@ section.page {
     }
 
     &.accommodations {
-    	background: $darkbluegradient;
-    	overflow: hidden;
-    	position: relative;
-    	@include padding(40px null);
+        background: $darkbluegradient;
+        overflow: hidden;
+        position: relative;
+        @include padding(40px null);
 
-    	> .grid-container {
-    		background: $darkbluegradienttint;
-    		min-height: calc(100vh - 80px);
-    		position: relative;
-    		z-index: 1;
-    	}
+        >.grid-container {
+            background: $darkbluegradienttint;
+            box-sizing: border-box;
+            color: #fff;
+            min-height: calc(100vh - 80px);
+            position: relative;
+            padding: 30px 45px;
+            z-index: 1;
+
+            a,
+            a:active,
+            a:visited {
+                color: #fff;
+            }
+        }
 
         .svg-container {
             pointer-events: none;
             position: absolute;
 
             &.leaf-outline {
-                filter: blur(2px);
                 opacity: 0.1;
                 right: 29vw;
                 top: -12vw;
@@ -280,7 +290,6 @@ section.page {
 
             &.magnolia-outline {
                 bottom: 8vw;
-                filter: blur(2px);
                 left: 19vw;
                 opacity: 0.2;
                 transform: rotate(-130deg);
@@ -288,6 +297,5 @@ section.page {
                 z-index: 0;
             }
         }
-
     }
 }
