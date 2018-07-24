@@ -50,6 +50,18 @@ details:
   - "/uploads/Black-Tie-Wedding-Attire.jpg"
   - "/uploads/Frock-And-Frill-Allover-Floral-Embroidered-Lace-Maxi-Dress-With-Flutter-Sleeve-315x352.jpg"
   - "/uploads/Asos-Edition-Folded-Sleeve-Off-Shoulder-Midi-Dress.jpg"
+accommodations:
+  travel: "The closest airport to Big Spring is the Midland International Air and
+    Space Port. \n\nThere are several rental car options at the Midland Airport. We
+    suggest reserving a car as soon as you book your flight to ensure availability.
+    Some rental car options at the airport include:\n\nEnterprise Rent-A-Car (432)
+    561-5172  \nAlamo Rent-A-Car (844) 370-1077  \nAvis Car Rental (432) 563-0910
+    \ \nUbers do not drive out to Big Spring yet!\n\nIt takes about 50 minutes to
+    get from the Midland Airport to the Hotel Settles on Highway I-20 East.\n\nThere
+    will be shuttles to take guests from The Settles Hotel to the wedding ceremony
+    and reception.\n\nThere is extremely limited parking at the wedding site, so we
+    encourage all guests to use the shuttle service."
+  hotel: ''
 
 ---
 test content
