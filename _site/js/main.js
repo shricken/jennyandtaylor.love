@@ -6,7 +6,7 @@
             lazyLoad: 'ondemand',
             fade: true,
             autoplay: true,
-            autoplaySpeed: 4000
+            autoplaySpeed: 3000
         });
 
         $('.attire-slider').slick({
