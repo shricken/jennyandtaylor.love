@@ -32,5 +32,8 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: image_gallery
+    name: photo_gallery
+    label: Photo gallery
 pages:
 - index.md
