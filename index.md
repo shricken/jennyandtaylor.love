@@ -77,6 +77,10 @@ registry:
     url: https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=546012063&eventType=Wedding&pwsurl=
   - url: https://www.amazon.com/wedding/share/JennyandTaylor2018
     logo: "/uploads/amazon.svg"
+  - url: https://www.zola.com/registry/jennyandtaylor2018
+    logo: "/uploads/zola.svg"
+  - url: https://www.williams-sonoma.com/registry/lvvnmdf5sw/registry-list.html
+    logo: "/uploads/williams-sonoma.svg"
 
 ---
 test content
