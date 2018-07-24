@@ -68,6 +68,15 @@ accommodations:
     the Parks & Wawrose wedding in order to receive the wedding weekend rate. The
     reservation cannot be made online.\n\n**Reservations must be made by September
     8th, 2018.**"
+registry:
+  registry_intro: Your love, laughter and company on our wedding day is the greatest
+    gift of all. However, should you wish to help us celebrate with a gift, a registry
+    is held at: 
+  registry_item:
+  - logo: "/uploads/bedbathbeyond.svg"
+    url: https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=546012063&eventType=Wedding&pwsurl=
+  - url: https://www.amazon.com/wedding/share/JennyandTaylor2018
+    logo: "/uploads/amazon.svg"
 
 ---
 test content
