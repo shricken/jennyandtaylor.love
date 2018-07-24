@@ -78,6 +78,7 @@
 				"neat/neat/mixins/_grid-shift.scss",
 				"neat/neat/mixins/_grid-visual.scss",
 				"neat/neat/settings/_settings.scss",
+				"slick-theme.scss",
 				"svg.scss",
 				"variables.scss"
 			]

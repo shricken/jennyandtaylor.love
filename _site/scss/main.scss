@@ -2,6 +2,7 @@
 @import "neat/neat";
 
 @import "variables";
+@import "slick-theme";
 @import "svg";
 
 
@@ -17,7 +18,15 @@ h4,
 h5,
 h6 {
     font-family: 'Playfair Display', serif;
+    font-weight: normal;
 }
+
+.grid-container {
+    max-width: $row-width;
+    @include grid-container;
+    @include margin(null auto);
+}
+
 
 section.page {
     min-height: 100vh;
@@ -78,6 +87,7 @@ section.page {
         }
 
         .svg-container {
+            pointer-events: none;
             position: absolute;
 
             &.magnolia-1 {
@@ -131,14 +141,28 @@ section.page {
     }
 
     &.about {
-        .grid-container {
-            max-width: $row-width;
-            @include grid-container;
-            @include margin(null auto);
+        position: relative;
+        z-index: 1;
 
-            >div {
+        .intro {
+            background: rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-align: center;
+
+            @include grid-column(8);
+            @include grid-push(2);
+
+            +hr {
                 @include grid-column(6);
+                @include grid-push(3);
             }
+        }
+
+        .story,
+        .gallery {
+            @include grid-column(6);
         }
     }
 }
