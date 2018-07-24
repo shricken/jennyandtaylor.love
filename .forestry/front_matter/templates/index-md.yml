@@ -31,5 +31,13 @@ fields:
 - type: field_group
   name: intro_about
   label: Intro/About
+  fields:
+  - type: textarea
+    name: site_intro
+    label: Site intro
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - index.md
