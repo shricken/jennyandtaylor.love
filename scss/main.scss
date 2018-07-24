@@ -21,14 +21,12 @@ h6 {
     font-weight: normal;
 }
 
-$small-grid: (
-  columns: 12,
-  media: "screen and (max-width: 699px)",
+$small-grid: ( columns: 12,
+media: "screen and (max-width: 699px)",
 );
 
-$large-grid: (
-  columns: 12,
-  media: 700px,
+$large-grid: ( columns: 12,
+media: 700px,
 );
 
 .grid-container {
@@ -39,17 +37,18 @@ $large-grid: (
 
 
 section.page {
+	box-sizing: border-box;
     min-height: 100vh;
 
     &.home {
         align-items: center;
-        background: linear-gradient(0.125turn, $darkblue, #16354c);
+        background: $darkbluegradient;
         display: flex;
         justify-content: center;
         position: relative;
 
         .title {
-            background: linear-gradient(0.125turn, tint($darkblue, 5%), tint(#16354c, 5%));
+            background: $darkbluegradienttint;
             padding: 0 2rem;
             position: relative;
             z-index: 10;
@@ -164,8 +163,8 @@ section.page {
             @include grid-column(12);
 
             @include grid-media($large-grid) {
-	            @include grid-column(8);
-	            @include grid-push(2);
+                @include grid-column(8);
+                @include grid-push(2);
             }
 
             +hr {
@@ -179,21 +178,116 @@ section.page {
             @include grid-column(12);
 
             @include grid-media($large-grid) {
-	            @include grid-column(6);
+                @include grid-column(6);
             }
         }
 
         .story {
-        	h3 {
-        		text-align: center;
-        	}
+            h3 {
+                text-align: center;
+            }
         }
         .image-slider {
-        	margin-top: 20px;
+            margin-top: 20px;
 
-        	@media (screen and min-height: 700px) {
-        		margin-top: 60px;
-        	}
+            @media screen and (min-width: 700px) {
+                margin-top: 60px;
+            }
+
+            .slick-slide {
+                img {
+                    width: 100%;
+                }
+            }
         }
+    }
+
+    &.details {
+    	.ampersand {
+    		color: $gold;
+    	}
+
+        .section-separator {
+            @include grid-column(8);
+            @include grid-push(2);
+        }
+
+        h2 {
+        	text-align: center;
+            @include grid-column(12);
+        }
+
+        .date-and-time {
+        	background-color: tint($darkblue, 10%);
+        	box-sizing: border-box;
+        	color: #fff;
+        	font-size: modular-scale(1);
+        	margin-bottom: 40px;
+        	padding: 30px 60px;
+        	text-align: center;
+
+        	a,
+        	a:active,
+        	a:visited {
+    			color: #fff;
+        	}
+
+            @include grid-column(12);
+
+            @include grid-media($large-grid) {
+                @include grid-column(7);
+            }
+        }
+
+        .attire {
+            @include grid-column(12);
+
+            @include grid-media($large-grid) {
+                @include grid-column(5);
+            }
+        }
+
+        .attire-gallery {
+            @include grid-column(12);
+        }
+    }
+
+    &.accommodations {
+    	background: $darkbluegradient;
+    	overflow: hidden;
+    	position: relative;
+    	@include padding(40px null);
+
+    	> .grid-container {
+    		background: $darkbluegradienttint;
+    		min-height: calc(100vh - 80px);
+    		position: relative;
+    		z-index: 1;
+    	}
+
+        .svg-container {
+            pointer-events: none;
+            position: absolute;
+
+            &.leaf-outline {
+                filter: blur(2px);
+                opacity: 0.1;
+                right: 29vw;
+                top: -12vw;
+                width: 155vw;
+                z-index: 0;
+            }
+
+            &.magnolia-outline {
+                bottom: 8vw;
+                filter: blur(2px);
+                left: 19vw;
+                opacity: 0.2;
+                transform: rotate(-130deg);
+                width: 153vw;
+                z-index: 0;
+            }
+        }
+
     }
 }

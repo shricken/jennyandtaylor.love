@@ -2,6 +2,8 @@
 // Colors
 $darkblue: #0d1f2d;
 $gold: #e8ca82;
+$darkbluegradient: linear-gradient(0.125turn, $darkblue, #16354c);
+$darkbluegradienttint: linear-gradient(0.125turn, tint($darkblue, 5%), tint(#16354c, 5%));
 
 // Row definitions
 $row-width: 1000px;

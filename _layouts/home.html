@@ -41,8 +41,48 @@
         </section>
         <section id="details" class="page details">
             <div class="grid-container">
-                <hr/>
-                <h3>When <span class="ampersand">&amp;</span> Where</h3>
+                <hr class="section-separator" />
+                <h2>When <span class="ampersand">&amp;</span> Where</h2>
+            </div>
+            <div class="grid-container">
+                <div class="date-and-time">
+                    <h4>The Ceremony <span class="ampersand">&amp;</span> Reception</h4>
+                    <p>NOVEMBER 10 AT 4:00 PM</p>
+                    <p><a href="https://goo.gl/maps/1ebxjRsKXZP2" target="_blank">1100 Richie Road
+                        <br/> Big Spring, TX 79720</a></p>
+                    <p>Dinner and Dancing to follow</p>
+                    <p><em>Please send your RSVP by September 10, 2018</em></p>
+                </div>
+                <div class="attire">
+                    {{ page.details.attire | markdownify }}
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="attire-gallery">
+                    <div class="attire-slider">
+                        {% for image in page.details.attire_examples %}
+                        <div><img src="{{ image | relative_url }}"></div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="accommodations" class="page accommodations">
+            <div class="grid-container">
+                <h2>Travel <span class="ampersand">&amp;</span> Accommodations</h2>
+                <div class="grid-container">
+                    <div class="travel">
+                        {{ page.accommodations.travel | markdownify }}
+                    </div>
+                    <div class="hotel">
+                        <h4>The Ceremony <span class="ampersand">&amp;</span> Reception</h4>
+                        <p>NOVEMBER 10 AT 4:00 PM</p>
+                        <p>1100 Richie Road
+                            <br/> Big Spring, TX 79720</p>
+                        <p>Dinner and Dancing to follow</p>
+                        <p><em>Please send your RSVP by September 10, 2018</em></p>
+                    </div>
+                </div>
             </div>
             <div class="svg-container leaf-outline">{% include svg/leaf-outline.svg %}</div>
             <div class="svg-container magnolia-outline">{% include svg/magnolia-outline.svg %}</div>
