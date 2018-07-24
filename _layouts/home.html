@@ -31,13 +31,21 @@
                     {{ page.intro_about.about_us | markdownify }}
                 </div>
                 <div class="gallery">
-                    <div class="your-class">
+                    <div class="image-slider">
                         {% for image in page.intro_about.photo_gallery %}
                         <div><img data-lazy="{{ image | relative_url }}"></div>
                         {% endfor %}
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="details" class="page details">
+            <div class="grid-container">
+                <hr/>
+                <h3>When <span class="ampersand">&amp;</span> Where</h3>
+            </div>
+            <div class="svg-container leaf-outline">{% include svg/leaf-outline.svg %}</div>
+            <div class="svg-container magnolia-outline">{% include svg/magnolia-outline.svg %}</div>
         </section>
     </main>
     {% include footer.html %}

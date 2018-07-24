@@ -2,7 +2,7 @@
 
 (function($) {
     $(document).ready(function() {
-        $('.your-class').slick({
+        $('.image-slider').slick({
         	lazyLoad: 'ondemand',
         	fade: true
         });

@@ -188,5 +188,12 @@ section.page {
         		text-align: center;
         	}
         }
+        .image-slider {
+        	margin-top: 20px;
+
+        	@media (screen and min-height: 700px) {
+        		margin-top: 60px;
+        	}
+        }
     }
 }
