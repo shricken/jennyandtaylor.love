@@ -92,7 +92,7 @@
             <div class="grid-container registries">
                 {% for registry in page.registry.registry_item %}
                 <div class="registry-item">
-                    <a href="{{ registry.url }}"><img src="{{ registry.logo | relative_url }}" /></a>
+                    <a href="{{ registry.url }}" target="_blank"><img src="{{ registry.logo | relative_url }}" /></a>
                 </div>
                 {% endfor %}
             </div>
