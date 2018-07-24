@@ -4,7 +4,9 @@
     $(document).ready(function() {
         $('.image-slider').slick({
             lazyLoad: 'ondemand',
-            fade: true
+            fade: true,
+            autoplay: true,
+            autoplaySpeed: 4000
         });
 
         $('.attire-slider').slick({
