@@ -46,5 +46,8 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: image_gallery
+    name: attire_examples
+    label: Attire Examples
 pages:
 - index.md
