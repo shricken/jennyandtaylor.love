@@ -49,5 +49,23 @@ fields:
   - type: image_gallery
     name: attire_examples
     label: Attire Examples
+- type: field_group
+  name: accommodations
+  label: Accommodations
+  fields:
+  - type: textarea
+    name: travel
+    label: Travel
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
+    name: hotel
+    label: Hotel
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 pages:
 - index.md
