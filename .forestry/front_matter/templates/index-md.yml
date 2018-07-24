@@ -35,5 +35,60 @@ fields:
   - type: image_gallery
     name: photo_gallery
     label: Photo gallery
+- type: field_group
+  name: details
+  label: When, where, what to wear
+  fields:
+  - type: textarea
+    label: What to wear copy
+    name: attire
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: image_gallery
+    name: attire_examples
+    label: Attire Examples
+- type: field_group
+  name: accommodations
+  label: Accommodations
+  fields:
+  - type: textarea
+    name: travel
+    label: Travel
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: textarea
+    name: hotel
+    label: Hotel
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: registry
+  label: Registry
+  fields:
+  - type: textarea
+    name: registry_intro
+    label: Registry intro
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group_list
+    name: registry_item
+    label: Registry item
+    fields:
+    - type: text
+      name: url
+      label: URL
+      config:
+        required: true
+    - type: file
+      name: logo
+      label: Logo
 pages:
 - index.md
