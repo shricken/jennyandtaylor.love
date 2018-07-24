@@ -32,9 +32,9 @@
                 </div>
                 <div class="gallery">
                     <div class="your-class">
-                        <div>your content</div>
-                        <div>your content</div>
-                        <div>your content</div>
+                        {% for image in page.intro_about.photo_gallery %}
+                        <div><img data-lazy="{{ image | relative_url }}"></div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

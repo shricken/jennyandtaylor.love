@@ -2,6 +2,9 @@
 
 (function($) {
     $(document).ready(function() {
-        $('.your-class').slick();
+        $('.your-class').slick({
+        	lazyLoad: 'ondemand',
+        	fade: true
+        });
     });
 })(jQuery);
