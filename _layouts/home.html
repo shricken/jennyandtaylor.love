@@ -86,15 +86,15 @@
         <section id="registry" class="page registry">
             <div class="grid-container">
                 <div class="registry-intro">
-                    <h2>Registry</h2>
-                    {{ page.registry }}
+                    <h2>Registry</h2> {{ page.registry.registry_intro }}
                 </div>
             </div>
-            <div class="grid-container">
+            <div class="grid-container registries">
+                {% for registry in page.registry.registry_item %}
                 <div class="registry-item">
-                    
+                    <a href="{{ registry.url }}"><img src="{{ registry.logo | relative_url }}" /></a>
                 </div>
-
+                {% endfor %}
             </div>
         </section>
     </main>

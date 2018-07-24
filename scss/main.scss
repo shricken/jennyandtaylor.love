@@ -1,4 +1,4 @@
-@import "bourbon/bourbon";
+    @import "bourbon/bourbon";
 @import "neat/neat";
 
 @import "variables";
@@ -298,4 +298,37 @@ section.page {
             }
         }
     }
-}
+
+    &.registry {
+
+        .registry-intro {
+        	text-align: center;
+            @include grid-column(12);
+
+            @include grid-media($large-grid) {
+                @include grid-column(8);
+                @include grid-push(2);
+            }
+        }
+
+
+        .registries {
+            margin-top: 40px;
+        }
+        .registry-item {
+            @include grid-column(5);
+
+            &:nth-child(odd) {
+                @include grid-push(1);
+            }
+                
+            a {
+                transition: opacity 0.3s;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    }
