@@ -61,7 +61,13 @@ accommodations:
     will be shuttles to take guests from The Settles Hotel to the wedding ceremony
     and reception.\n\nThere is extremely limited parking at the wedding site, so we
     encourage all guests to use the shuttle service."
-  hotel: ''
+  hotel: "### The Settles Hotel\n\n200 East Third Street  \nBig Spring, Texas 79720
+    \ \nPhone: (432) 267-7500\n\nWebsite: [www.Hotelsettles.com](http://www.hotelsettles.com)\n\nFor
+    your convenience, a block of rooms has been reserved at The Settles Hotel in Big
+    Spring, Texas.\n\nTo make your reservation, please call the hotel and mention
+    the Parks & Wawrose wedding in order to receive the wedding weekend rate. The
+    reservation cannot be made online.\n\n**Reservations must be made by September
+    8th, 2018.**"
 
 ---
 test content
