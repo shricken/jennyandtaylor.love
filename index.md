@@ -17,20 +17,19 @@ intro_about:
     Little did Taylor know, Jenny was not only looking to take his books but also would end up taking his heart.
   photo_gallery:
   - "/uploads/2016-01-10 12.42.11.jpg"
-  - "/uploads/beach.jpg"
-  - "/uploads/DSCN1965.JPG"
   - "/uploads/snow.jpg"
-  - "/uploads/Photo Jun 20, 9 56 45 PM.jpg"
-  - "/uploads/IMG_20120824_231206.jpg"
-  - "/uploads/IMG_2561.JPG"
-  - "/uploads/IMG_2324.jpg"
-  - "/uploads/horse.JPG"
-  - "/uploads/halloween.jpg"
-  - "/uploads/fall.jpg"
   - "/uploads/facebook_124858700.jpg"
-  - "/uploads/DSCN2023.JPG"
-  - "/uploads/2015-01-10 17.50.17.jpg"
+  - "/uploads/halloween.jpg"
+  - "/uploads/beach.jpg"
+  - "/uploads/IMG_20120824_231206.jpg"
   - "/uploads/2014-09-16 16.43.02.jpg"
+  - "/uploads/Photo Jun 20, 9 56 45 PM.jpg"
+  - "/uploads/fall.jpg"
+  - "/uploads/2015-01-10 17.50.17.jpg"
+  - "/uploads/IMG_2324.jpg"
+  - "/uploads/IMG_2561.JPG"
+  - "/uploads/horse.JPG"
+  - "/uploads/DSCN2023.JPG"
 
 ---
 test content
