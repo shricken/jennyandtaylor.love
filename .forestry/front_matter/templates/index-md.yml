@@ -67,5 +67,28 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+- type: field_group
+  name: registry
+  label: Registry
+  fields:
+  - type: textarea
+    name: registry_intro
+    label: Registry intro
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group_list
+    name: registry_item
+    label: Registry item
+    fields:
+    - type: text
+      name: url
+      label: URL
+      config:
+        required: true
+    - type: file
+      name: logo
+      label: Logo
 pages:
 - index.md
