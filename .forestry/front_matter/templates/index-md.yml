@@ -35,5 +35,19 @@ fields:
   - type: image_gallery
     name: photo_gallery
     label: Photo gallery
+- type: field_group
+  name: details
+  label: When, where, what to wear
+  fields:
+  - type: textarea
+    label: What to wear copy
+    name: attire
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: image_gallery
+    name: attire_examples
+    label: Attire Examples
 pages:
 - index.md
