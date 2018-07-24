@@ -14,13 +14,6 @@ fields:
   config:
     date_format: MMMM D YYYY
     time_format: " "
-- type: textarea
-  label: About Us
-  name: about_us
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: field_group
   name: intro_about
   label: Intro/About
