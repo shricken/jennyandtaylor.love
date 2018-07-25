@@ -17,5 +17,16 @@
             variableWidth: true
         });
 
+        $('[data-popup-target]').click(function (e) {
+        	var popupTarget = $(this).data('popupTarget');
+        	$('[data-popup=' + popupTarget + ']').fadeIn();
+        	e.preventDefault();
+        })
+
+        $('.popup-close').click(function (e) {
+        	$(this).parents('[data-popup]').fadeOut();
+        	e.preventDefault();
+        })
+
     });
 })(jQuery);
