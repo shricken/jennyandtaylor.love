@@ -39,7 +39,7 @@
                 </div>
             </div>
         </section>
-        <section id="details" class="page details">
+        <section id="details" class="page details auto-height">
             <div class="grid-container">
                 <hr class="section-separator" />
                 <h2>When <span class="ampersand">&amp;</span> Where</h2>
@@ -55,15 +55,17 @@
                 </div>
                 <div class="attire">
                     {{ page.details.attire | markdownify }}
+                    <p><a href="#" data-popup-target="attire">Click here to view examples</a></p>
                 </div>
             </div>
-            <div class="grid-container">
+            <div class="attire-popup" data-popup="attire" style="display:none;">
                 <div class="attire-gallery">
                     <div class="attire-slider">
                         {% for image in page.details.attire_examples %}
                         <div><img src="{{ image | relative_url }}"></div>
                         {% endfor %}
                     </div>
+                    <a href="#" class="popup-close">✕</a>
                 </div>
             </div>
         </section>
@@ -83,7 +85,7 @@
             <div class="svg-container leaf-outline">{% include svg/leaf-outline.svg %}</div>
             <div class="svg-container magnolia-outline">{% include svg/magnolia-outline.svg %}</div>
         </section>
-        <section id="registry" class="page registry">
+        <section id="registry" class="page registry auto-height">
             <div class="grid-container">
                 <div class="registry-intro">
                     <h2>Registry</h2> {{ page.registry.registry_intro }}

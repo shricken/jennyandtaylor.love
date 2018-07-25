@@ -1,340 +1,382 @@
     @import "bourbon/bourbon";
-@import "neat/neat";
+    @import "neat/neat";
 
-@import "variables";
-@import "slick-theme";
-@import "svg";
-
-
-html, body {
-    font-family: 'Libre Franklin', sans-serif;
-    margin: 0;
-    overflow-x: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-}
-
-$small-grid: ( columns: 12,
-media: "screen and (max-width: 699px)",
-);
-
-$large-grid: ( columns: 12,
-media: 700px,
-);
-
-.grid-container {
-    max-width: $row-width;
-    @include grid-container;
-    @include margin(null auto);
-}
+    @import "variables";
+    @import "slick-theme";
+    @import "svg";
 
 
-section.page {
-    box-sizing: border-box;
-    min-height: 100vh;
+    html,
+    body {
+        font-family: 'Libre Franklin', sans-serif;
+        margin: 0;
+        overflow-x: hidden;
+    }
 
-    &.home {
-        align-items: center;
-        background: $darkbluegradient;
-        display: flex;
-        justify-content: center;
-        position: relative;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Playfair Display', serif;
+        font-weight: normal;
+    }
 
-        .title {
-            background: $darkbluegradienttint;
-            padding: 0 2rem;
+    $small-grid: ( columns: 12,
+    media: "screen and (max-width: 699px)",
+    );
+
+    $large-grid: ( columns: 12,
+    media: 700px,
+    );
+
+    .grid-container {
+        max-width: $row-width;
+        @include grid-container;
+        @include margin(null auto);
+    }
+
+
+    section.page {
+        box-sizing: border-box;
+        min-height: 100vh;
+
+        &.home {
+            align-items: center;
+            background: $darkbluegradient;
+            display: flex;
+            justify-content: center;
             position: relative;
-            z-index: 10;
 
-            h1,
-            h2,
-            h3,
-            h4 {
-                color: #fff;
-                font-family: 'Playfair Display', serif;
-                font-weight: normal;
-                text-align: center;
-            }
+            .title {
+                background: $darkbluegradienttint;
+                padding: 0 2rem;
+                position: relative;
+                z-index: 10;
 
-            h1 {
-                color: $gold;
-                font-size: 8vw;
-                margin: 0;
-
-                @media (min-width: 1100px) {
-                    font-size: 88px;
+                h1,
+                h2,
+                h3,
+                h4 {
+                    color: #fff;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: normal;
+                    text-align: center;
                 }
 
-                .ampersand {
-                    color: #fff;
-                    font-size: 10vw;
-                    vertical-align: -8%;
+                h1 {
+                    color: $gold;
+                    font-size: 8vw;
+                    margin: 0;
 
                     @media (min-width: 1100px) {
-                        font-size: 110px;
+                        font-size: 88px;
+                    }
+
+                    .ampersand {
+                        color: #fff;
+                        font-size: 10vw;
+                        vertical-align: -8%;
+
+                        @media (min-width: 1100px) {
+                            font-size: 110px;
+                        }
+                    }
+                }
+
+                .date {
+                    font-size: 2vw;
+                    letter-spacing: 2.5vw;
+                    margin-top: 1rem;
+                    padding-left: 2.5vw; // even out spacing due to letter spacing after last character
+                    @media (min-width: 1100px) {
+                        font-size: 22px;
+                        letter-spacing: 27.5px;
                     }
                 }
             }
 
-            .date {
-                font-size: 2vw;
-                letter-spacing: 2.5vw;
-                margin-top: 1rem;
-                padding-left: 2.5vw; // even out spacing due to letter spacing after last character
-                @media (min-width: 1100px) {
-                    font-size: 22px;
-                    letter-spacing: 27.5px;
+            .svg-container {
+                pointer-events: none;
+                position: absolute;
+
+                &.magnolia-1 {
+                    top: -10vw;
+                    left: -15vw;
+                    width: 60vw;
+                    transform: rotate(170deg);
+                    z-index: 1;
+                }
+
+                &.leaf-1 {
+                    width: 43vw;
+                    top: 18vw;
+                    left: -25vw;
+                    transform: rotate(57deg);
+                    z-index: 2;
+                }
+
+                &.magnolia-2 {
+                    bottom: -11vw;
+                    right: -19vw;
+                    width: 60vw;
+                    transform: rotate(270deg);
+                    z-index: 1;
+                }
+
+                &.leaf-2 {
+                    width: 53vw;
+                    bottom: -12vw;
+                    right: -29vw;
+                    transform: rotate(120deg);
+                }
+
+                &.leaf-outline {
+                    filter: blur(2px);
+                    opacity: 0.1;
+                    right: 29vw;
+                    top: -12vw;
+                    width: 155vw;
+                    z-index: 0;
+                }
+
+                &.magnolia-outline {
+                    bottom: 8vw;
+                    filter: blur(2px);
+                    left: 19vw;
+                    opacity: 0.2;
+                    transform: rotate(-130deg);
+                    width: 153vw;
+                    z-index: 0;
                 }
             }
         }
 
-        .svg-container {
-            pointer-events: none;
-            position: absolute;
-
-            &.magnolia-1 {
-                top: -10vw;
-                left: -15vw;
-                width: 60vw;
-                transform: rotate(170deg);
-                z-index: 1;
-            }
-
-            &.leaf-1 {
-                width: 43vw;
-                top: 18vw;
-                left: -25vw;
-                transform: rotate(57deg);
-                z-index: 2;
-            }
-
-            &.magnolia-2 {
-                bottom: -11vw;
-                right: -19vw;
-                width: 60vw;
-                transform: rotate(270deg);
-                z-index: 1;
-            }
-
-            &.leaf-2 {
-                width: 53vw;
-                bottom: -12vw;
-                right: -29vw;
-                transform: rotate(120deg);
-            }
-
-            &.leaf-outline {
-                filter: blur(2px);
-                opacity: 0.1;
-                right: 29vw;
-                top: -12vw;
-                width: 155vw;
-                z-index: 0;
-            }
-
-            &.magnolia-outline {
-                bottom: 8vw;
-                filter: blur(2px);
-                left: 19vw;
-                opacity: 0.2;
-                transform: rotate(-130deg);
-                width: 153vw;
-                z-index: 0;
-            }
-        }
-    }
-
-    &.about {
-        position: relative;
-        z-index: 1;
-
-        .intro {
-            background: rgba(255, 255, 255, 0.8);
-            box-sizing: border-box;
-            margin-top: 40px;
-            padding-right: 20px;
-            padding-left: 20px;
-            text-align: center;
-
-            @include grid-column(12);
-
-            @include grid-media($large-grid) {
-                @include grid-column(8);
-                @include grid-push(2);
-            }
-
-            +hr {
-                @include grid-column(6);
-                @include grid-push(3);
-            }
-        }
-
-        .story,
-        .gallery {
-            @include grid-column(12);
-
-            @include grid-media($large-grid) {
-                @include grid-column(6);
-            }
-        }
-
-        .story {
-            h3 {
-                text-align: center;
-            }
-        }
-        .image-slider {
-            margin-top: 20px;
-
-            @media screen and (min-width: 700px) {
-                margin-top: 60px;
-            }
-
-            .slick-slide {
-                img {
-                    width: 100%;
-                }
-            }
-        }
-    }
-
-    &.details {
-        .ampersand {
-            color: $gold;
-        }
-
-        .section-separator {
-            @include grid-column(8);
-            @include grid-push(2);
-        }
-
-        h2 {
-            text-align: center;
-            @include grid-column(12);
-        }
-
-        .date-and-time {
-            background-color: tint($darkblue, 10%);
-            box-sizing: border-box;
-            color: #fff;
-            font-size: modular-scale(1);
-            margin-bottom: 40px;
-            padding: 30px 60px;
-            text-align: center;
-
-            a,
-            a:active,
-            a:visited {
-                color: #fff;
-            }
-
-            @include grid-column(12);
-
-            @include grid-media($large-grid) {
-                @include grid-column(7);
-            }
-        }
-
-        .attire {
-            @include grid-column(12);
-
-            @include grid-media($large-grid) {
-                @include grid-column(5);
-            }
-        }
-
-        .attire-gallery {
-            @include grid-column(12);
-        }
-    }
-
-    &.accommodations {
-        background: $darkbluegradient;
-        overflow: hidden;
-        position: relative;
-        @include padding(40px null);
-
-        >.grid-container {
-            background: $darkbluegradienttint;
-            box-sizing: border-box;
-            color: #fff;
-            min-height: calc(100vh - 80px);
+        &.about {
             position: relative;
-            padding: 30px 45px;
             z-index: 1;
 
-            h2 {
-            	text-align: center;
-            }
-
             a,
             a:active,
             a:visited {
-                color: #fff;
-            }
-        }
-
-        .svg-container {
-            pointer-events: none;
-            position: absolute;
-
-            &.leaf-outline {
-                opacity: 0.1;
-                right: 29vw;
-                top: -12vw;
-                width: 155vw;
-                z-index: 0;
+                color: $darkblue;
             }
 
-            &.magnolia-outline {
-                bottom: 8vw;
-                left: 19vw;
-                opacity: 0.2;
-                transform: rotate(-130deg);
-                width: 153vw;
-                z-index: 0;
+            .intro {
+                background: rgba(255, 255, 255, 0.8);
+                box-sizing: border-box;
+                margin-top: 40px;
+                padding-right: 20px;
+                padding-left: 20px;
+                text-align: center;
+
+                @include grid-column(12);
+
+                @include grid-media($large-grid) {
+                    @include grid-column(8);
+                    @include grid-push(2);
+                }
+
+                +hr {
+                    @include grid-column(6);
+                    @include grid-push(3);
+                }
             }
-        }
-    }
 
-    &.registry {
+            .story,
+            .gallery {
+                @include grid-column(12);
 
-        .registry-intro {
-        	text-align: center;
-            @include grid-column(12);
-
-            @include grid-media($large-grid) {
-                @include grid-column(8);
-                @include grid-push(2);
+                @include grid-media($large-grid) {
+                    @include grid-column(6);
+                }
             }
-        }
 
-
-        .registries {
-            margin-top: 40px;
-        }
-        .registry-item {
-            @include grid-column(5);
-
-            &:nth-child(odd) {
-                @include grid-push(1);
+            .story {
+                h3 {
+                    text-align: center;
+                }
             }
-                
-            a {
-                transition: opacity 0.3s;
+            .image-slider {
+                margin-top: 20px;
 
-                &:hover {
-                    opacity: 0.7;
+                @media screen and (min-width: 700px) {
+                    margin-top: 60px;
+                }
+
+                .slick-slide {
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
-    }
+
+        &.details {
+            .ampersand {
+                color: $gold;
+            }
+
+            .section-separator {
+                @include grid-column(8);
+                @include grid-push(2);
+            }
+
+            h2 {
+                text-align: center;
+                @include grid-column(12);
+            }
+
+            .date-and-time {
+                background-color: tint($darkblue, 10%);
+                box-sizing: border-box;
+                color: #fff;
+                font-size: modular-scale(1);
+                margin-bottom: 40px;
+                padding: 30px 60px;
+                text-align: center;
+
+                a,
+                a:active,
+                a:visited {
+                    color: #fff;
+                }
+
+                @include grid-column(12);
+
+                @include grid-media($large-grid) {
+                    @include grid-column(7);
+                }
+            }
+
+            .attire {
+                @include grid-column(12);
+
+                @include grid-media($large-grid) {
+                    @include grid-column(5);
+                }
+            }
+
+            .attire-popup {
+            	align-items: center;
+                background-color: rgba(255, 255, 255, 0.7);
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 100vw;
+                z-index: 10;
+
+                .attire-gallery {
+                	width: 100%;
+                }
+
+                .popup-close {
+                	display: block;
+                	color: $darkblue;
+                	font-size: 35px;
+                	position: absolute;
+                	right: 10px;
+                	text-decoration: none;
+                	top: 10px;
+                	transition: opacity 0.3s;
+
+                	&:hover {
+                		opacity: 0.7;
+                	}
+                }
+            }
+        }
+
+        &.accommodations {
+            background: $darkbluegradient;
+            overflow: hidden;
+            position: relative;
+            @include padding(40px null);
+
+            .ampersand {
+                color: $gold;
+            }
+
+            >.grid-container {
+                background: $darkbluegradienttint;
+                box-sizing: border-box;
+                color: #fff;
+                min-height: calc(100vh - 80px);
+                position: relative;
+                padding: 30px 45px;
+                z-index: 1;
+
+                h2 {
+                    text-align: center;
+                }
+
+                a,
+                a:active,
+                a:visited {
+                    color: #fff;
+                }
+            }
+
+            .svg-container {
+                pointer-events: none;
+                position: absolute;
+
+                &.leaf-outline {
+                    opacity: 0.1;
+                    right: 29vw;
+                    top: -12vw;
+                    width: 155vw;
+                    z-index: 0;
+                }
+
+                &.magnolia-outline {
+                    bottom: 8vw;
+                    left: 19vw;
+                    opacity: 0.2;
+                    transform: rotate(-130deg);
+                    width: 153vw;
+                    z-index: 0;
+                }
+            }
+        }
+
+        &.registry {
+
+            .registry-intro {
+                text-align: center;
+                @include grid-column(12);
+
+                @include grid-media($large-grid) {
+                    @include grid-column(8);
+                    @include grid-push(2);
+                }
+            }
+
+
+            .registries {
+                margin-top: 40px;
+            }
+            .registry-item {
+                @include grid-column(5);
+
+                &:nth-child(odd) {
+                    @include grid-push(1);
+                }
+
+                a {
+                    transition: opacity 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        &.auto-height {
+        	min-height: 0;
+        }
     }
