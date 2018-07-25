@@ -6,9 +6,10 @@
 @import "svg";
 
 
-body {
+html, body {
     font-family: 'Libre Franklin', sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1,
