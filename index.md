@@ -67,9 +67,10 @@ accommodations:
     reservation cannot be made online.\n\n**Reservations must be made by September
     8th, 2018.**"
 registry:
-  registry_intro: Your love, laughter and company on our wedding day is the greatest
-    gift of all. However, should you wish to help us celebrate with a gift, a registry
-    is held at: 
+  registry_intro: |-
+    Your love, laughter and company on our wedding day is the greatest gift of all. However, should you wish to help us celebrate with a gift, a registry is held at the stores below.
+
+    For those that would like to shop locally in Big Spring, we are also registered at [Dazzling Decor](https://goo.gl/maps/UQtLXimCy2v).
   registry_item:
   - logo: "/uploads/bedbathbeyond.svg"
     url: https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=546012063&eventType=Wedding&pwsurl=
